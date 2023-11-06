@@ -1,0 +1,29 @@
+body {
+    background-color: white;
+}
+h1 {
+    color: white;
+}
+h3 {
+    color: white;
+}
+
+.main {
+   display: flex;
+   box-shadow: 1px 2px 5px rgb(0, 0, 0);
+   border-radius: 10px;
+}
+
+.results {
+    padding: 30px;
+    background-color: rgb(64, 64, 212);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.summary {
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
