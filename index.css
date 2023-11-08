@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    font-family: "HankenGrotesk";
 }
 h1 {
     color: white;
@@ -7,7 +8,25 @@ h1 {
 h3 {
     color: white;
 }
-
+.dot {
+    background-color: rgb(20, 15, 40);
+    border-radius: 50%;
+    display: inline-block;
+    min-height: 10vh;
+    min-width: 10vh;
+    line-height: 2.0vh;
+}
+.largeNum {
+    font-size: 100px;
+}
+button {
+    background-color: rgb(103, 104, 121);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
 .main {
    display: flex;
    box-shadow: 1px 2px 5px rgb(0, 0, 0);
@@ -20,10 +39,66 @@ h3 {
     border-radius: 10px;
     color: white;
     text-align: center;
+    width: 50vw;
 }
 
 .summary {
     padding: 30px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
+    width: 50vw;
+}
+
+.skills {
+    border-radius: 5px;
+    padding: 5px;
+}
+.image--set{
+    display: flex;
+    flex-direction: row;
+}
+.reaction {
+    background-color: rgba(255, 0, 0, 0.100);
+    color: rgba(255, 0, 0, 1.00);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.memory {
+    background-color: rgba(255, 251, 0, 0.286);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.verbal {
+    background-color: rgba(0, 255, 21, 0.286);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.visual {
+    background-color: rgba(0, 26, 255, 0.286);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.attribution {
+    text-align: center;
 }
