@@ -114,7 +114,6 @@ button:hover {
 }
 .reaction {
   background-color: rgba(255, 0, 0, 0.1);
-  color: rgba(255, 0, 0, 1);
   height: 30px;
   display: flex;
   align-items: center;
@@ -122,6 +121,9 @@ button:hover {
   padding: 10px;
   margin-bottom: 15px;
   border-radius: 5px;
+}
+.reaction--title{
+  color: red;
 }
 .memory {
   background-color: rgba(255, 251, 0, 0.1);
@@ -133,6 +135,9 @@ button:hover {
   margin-bottom: 15px;
   border-radius: 5px;
 }
+.memory--title{
+  color: rgb(243, 185, 25);
+}
 .verbal {
   background-color: rgba(0, 255, 21, 0.1);
   height: 30px;
@@ -142,6 +147,9 @@ button:hover {
   padding: 10px;
   margin-bottom: 15px;
   border-radius: 5px;
+}
+.verbal--title{
+  color: green;
 }
 .visual {
   background-color: rgba(0, 26, 255, 0.1);
@@ -153,8 +161,14 @@ button:hover {
   margin-bottom: 15px;
   border-radius: 5px;
 }
-
+.visual--title{
+  color: rgba(0, 26, 255, 1.0);
+}
 .attribution {
   margin-top: 15px;
   text-align: center;
+}
+
+.bigNum {
+  font-weight: bold;
 }
